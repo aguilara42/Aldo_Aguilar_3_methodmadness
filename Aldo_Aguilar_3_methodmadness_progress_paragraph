@@ -1,0 +1,10 @@
+For my project I plan on making a geometric pattern using squares and circles.
+At the moment I only have five methods, I have three methods dedicated to 
+making rectangles at diffrent opacities and colors. My green rectangles start
+in the top left corner and splatter outwards and increase in spread. Then
+I have red rectangles in a diaginal moving to the lower left corner. My blue 
+rectangles do the same to the lower right corner. My plan is to have both
+the blue and red rectangles make a spiral using Bresenham's circle. I have another method not yet writen out but it will add diffrent color or circle 
+spots all around. My last methodcalls my rectangles and circles within a for
+loop to draw my all the shapes. I call this method within the main class within
+a for loop.   

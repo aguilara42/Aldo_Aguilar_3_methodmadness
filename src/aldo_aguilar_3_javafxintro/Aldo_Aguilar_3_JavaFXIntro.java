@@ -37,6 +37,14 @@ public class Aldo_Aguilar_3_JavaFXIntro extends Application {
         }
     }
     
+    private void drawSpots(GraphicsContext gc, int x, int y, int w){
+    }
+    
+    private void drawSomeRedRects(GraphicsContext gc, int x, int y, int d){
+        gc.setStroke(Color.web("red", .03));
+        gc.strokeRect(x, y, d, d);
+    }
+    
     private void drawSomeBlueRects(GraphicsContext gc, int x, int y, int d){
         gc.setStroke(Color.web("blue", .02));
         gc.strokeRect(x, y, d, d);
@@ -52,6 +60,7 @@ public class Aldo_Aguilar_3_JavaFXIntro extends Application {
        for(int i=0; i < circles; i++ ){
             drawSomeGreenRects(gc, (int)(Math.random()*i)* i +5, (int)(Math.random()*i)* i * 2,(int)(Math.random()*i) +8);
             drawSomeBlueRects(gc, (i*20) +300, (i*10) + 300,(i* 5) +6 ) ;
+            drawSomeRedRects(gc, (i*-20) +300, (i*10) + 300,(i* 5) +6 ) ;
         }
     }
     
